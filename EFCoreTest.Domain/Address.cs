@@ -14,7 +14,7 @@ namespace EFCoreTest.Domain
 		public string State { get; private set; }
 		public string ZipCode { get; private set; }
 
-        0public long UserId { get; private set; }
+        public long UserId { get; private set; }
 
         public Address(string street, string city, string state, string zipCode, string? district = null, long userId = 0)
 		{
